@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+@media screen and (min-width: 601px) {
+    .ratings {
+        width: calc(100% - 66px) !important;
+    }
+}
+
 h1.rating-primary {
     text-align: left;
     align-self: flex-start;
