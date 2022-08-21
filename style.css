@@ -24,6 +24,7 @@ body {
 
 main {
     width: 400px;
+    max-width: calc(100% - 50px);
     height: 400px;
     padding: 17px;
     background: radial-gradient(circle at 40% 30%, rgb(37, 42, 53) 10%, rgba(23,31,43,1) 100%);
@@ -63,9 +64,10 @@ main p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% - 66px);
+    width: 100%;
     margin-bottom: 32px;
     align-self: center;
+    gap: 5px;
 }
 
 .rate {
