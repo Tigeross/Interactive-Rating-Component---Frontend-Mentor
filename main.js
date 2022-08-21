@@ -2,9 +2,6 @@ $(".thankyou").hide();
 
 let rating;
 
-$(".rate-state").hide();
-$(".thankyou").show()
-
 $(".rate").click(function() {
     rating = $(this).attr("id");
     $(".active").removeClass("active");
