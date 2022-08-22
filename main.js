@@ -10,7 +10,12 @@ $(".rate").click(function() {
 })
 
 $(".submit").click(function() {
+    if (rating) {
+        $(".thankyou").show();
     $(".thankyou").show();
     $(".rate-state").hide();
+    } else {
+        alert("Please select a rating");
+    }
 })
 
